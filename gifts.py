@@ -6,11 +6,11 @@ img_nara = Image.open(r"nara pict.jpg")
 img_date = Image.open(r"first date.jpg")
 first_foto = Image.open(r"first foto.jpg")
 badminton = Image.open(r"badminton.jpg")
-date = open(r"date day.mp4","rb")
+date = open(r"date day.mp4","rb"muted=True)
 ultah_nara = (r"nara's birtday.jpg")
 ultah_ardi = (r"ardi's birthday.jpg")
 batik_day = (r"batik day.jpg")
-univday = open(r"univday.mp4","rb")
+univday = open(r"univday.mp4","rb", muted=True)
 st.set_page_config(page_title="Made by Love", page_icon=":sparkles:", layout="wide")
 
 hide_st_style = """
