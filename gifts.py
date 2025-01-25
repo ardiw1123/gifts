@@ -21,20 +21,8 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-def autoplay_audio(file_path: str):
-    with open(file_path, "rb") as f:
-        data = f.read()
-        b64 = base64.b64encode(data).decode()
-        md = f"""
-            <audio controls autoplay="true">
-            <source src="data:audio/mp3;base64,{b64}" type="audio/mp3">
-            </audio>
-            """
-        st.markdown(
-            md,
-            unsafe_allow_html=True,
-        )
-autoplay_audio(r"music.mp3")
+
+st.audio(r"music.mp3",format="audio/mpeg", loop=True, autolay=True)
 
 with st.container():
     st.title("Hallo, This is Our Website")
