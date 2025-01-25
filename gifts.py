@@ -21,9 +21,7 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-
-st.write("play it first")
-st.audio(r"music.mp3")
+autoplay_audio(r"music.mp3")
 
 with st.container():
     st.title("Hallo, This is Our Website")
