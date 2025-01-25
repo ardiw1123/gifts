@@ -1,16 +1,16 @@
 import streamlit as st
 from PIL import Image
 
-img_ardi = Image.open(r"C:\Users\ardig\Downloads\ardi pict.jpg")
-img_nara = Image.open(r"C:\Users\ardig\Downloads\nara pict.jpg")
-img_date = Image.open(r"C:\Users\ardig\Downloads\first date.jpg")
-first_foto = Image.open(r"C:\Users\ardig\Downloads\first foto.jpg")
-badminton = Image.open(r"C:\Users\ardig\Downloads\badminton.jpg")
-date = open(r"C:\Users\ardig\Downloads\date day.mp4","rb")
-ultah_nara = (r"C:\Users\ardig\Downloads\nara's birtday.jpg")
-ultah_ardi = (r"C:\Users\ardig\Downloads\ardi's birthday.jpg")
-batik_day = (r"C:\Users\ardig\Downloads\batik day.jpg")
-univday = open(r"C:\Users\ardig\Downloads\univday.mp4","rb")
+img_ardi = Image.open(r"ardi pict.jpg")
+img_nara = Image.open(r"nara pict.jpg")
+img_date = Image.open(r"first date.jpg")
+first_foto = Image.open(r"first foto.jpg")
+badminton = Image.open(r"badminton.jpg")
+date = open(r"date day.mp4","rb")
+ultah_nara = (r"nara's birtday.jpg")
+ultah_ardi = (r"ardi's birthday.jpg")
+batik_day = (r"batik day.jpg")
+univday = open(r"univday.mp4","rb")
 st.set_page_config(page_title="Made by Love", page_icon=":sparkles:", layout="wide")
 
 with st.container():
