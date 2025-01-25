@@ -13,6 +13,18 @@ batik_day = (r"batik day.jpg")
 univday = open(r"univday.mp4","rb")
 st.set_page_config(page_title="Made by Love", page_icon=":sparkles:", layout="wide")
 
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+
+st.write("play it first")
+st.audio(r"music.mp3")
+
 with st.container():
     st.title("Hallo, This is Our Website")
     st.write("Sebelum kita berpisah jarak lagi, aku mau membuat sesuatu yang bisa dengan mudah kamu liat kalo lagi kangen!!")
