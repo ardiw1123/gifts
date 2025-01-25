@@ -19,10 +19,16 @@ hide_st_style = """
             footer {visibility: hidden;}
             header {visibility: hidden;}
             """
+
+audio_file = "assets/musik.mp3"  # Jalur relatif ke file musik
+audio_html = f"""
+<audio autoplay loop>
+    <source src="music.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+"""
+
 st.markdown(hide_st_style, unsafe_allow_html=True)
-
-
-st.audio(r"music.mp3",format="audio/mpeg", loop=True, autoplay=True)
 
 with st.container():
     st.title("Hallo, This is Our Website")
