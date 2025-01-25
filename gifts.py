@@ -22,7 +22,7 @@ hide_st_style = """
 
 audio_file = "music.mp3"  # Jalur relatif ke file musik
 audio_html = f"""
-<audio autoplay loop>
+<audio autoplay loop playsinline>
     <source src="{audio_file}" type="audio/mp3">
     Your browser does not support the audio element.
 </audio>
