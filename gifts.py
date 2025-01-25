@@ -13,9 +13,9 @@ batik_day = (r"batik day.jpg")
 univday = open(r"univday.mp4","rb")
 st.set_page_config(page_title="Made by Love", page_icon=":sparkles:", layout="wide")
 
-st.subheader(":👆: Play it First :👆:")
+st.subheader("👇👇👇 Play it First 👇👇👇")
 st.audio("music.mp3",autoplay=True,loop=True)
-st.subheader(":👆: Play it First :👆:")
+st.subheader("👆👆👆 Play it First 👆👆👆")
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
