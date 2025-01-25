@@ -20,14 +20,14 @@ hide_st_style = """
             header {visibility: hidden;}
             """
 
-audio_file = "assets/musik.mp3"  # Jalur relatif ke file musik
+audio_file = "music.mp3"  # Jalur relatif ke file musik
 audio_html = f"""
 <audio autoplay loop>
-    <source src="music.mp3" type="audio/mp3">
+    <source src="{audio_file}" type="audio/mp3">
     Your browser does not support the audio element.
 </audio>
 """
-
+st.markdown(audio_html, unsafe_allow_html=True)
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 with st.container():
