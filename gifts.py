@@ -20,9 +20,9 @@ hide_st_style = """
             header {visibility: hidden;}
             """
 
-audio_file = "music.mp3"  # Jalur relatif ke file musik
+audio_file = "music.mp3"  
 audio_html = f"""
-<audio autoplay loop playsinline>
+<audio autoplay loop muted>
     <source src="{audio_file}" type="audio/mp3">
     Your browser does not support the audio element.
 </audio>
