@@ -22,7 +22,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
-st.audio(r"music.mp3",format="audio/mpeg", loop=True, autolay=True)
+st.audio(r"music.mp3",format="audio/mpeg", loop=True, autoplay=True)
 
 with st.container():
     st.title("Hallo, This is Our Website")
