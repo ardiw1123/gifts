@@ -7,12 +7,10 @@ img_date = Image.open(r"C:\Users\ardig\Downloads\first date.jpg")
 first_foto = Image.open(r"C:\Users\ardig\Downloads\first foto.jpg")
 badminton = Image.open(r"C:\Users\ardig\Downloads\badminton.jpg")
 date = open(r"C:\Users\ardig\Downloads\date day.mp4","rb")
-video_bytes = date.read()
 ultah_nara = (r"C:\Users\ardig\Downloads\nara's birtday.jpg")
 ultah_ardi = (r"C:\Users\ardig\Downloads\ardi's birthday.jpg")
 batik_day = (r"C:\Users\ardig\Downloads\batik day.jpg")
 univday = open(r"C:\Users\ardig\Downloads\univday.mp4","rb")
-video_bytes = univday.read()
 st.set_page_config(page_title="Made by Love", page_icon=":sparkles:", layout="wide")
 
 with st.container():
